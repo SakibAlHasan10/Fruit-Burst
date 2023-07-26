@@ -89,14 +89,14 @@
         </nav>
         <!-- Banner Section -->
         <section>
-            <div class="">
+            <div class="h-96 md:h-[500px] lg:h-[600px] relative">
                 <!-- all slider -->
                 <div class="carousel h-60 md:h-[420px] lg:h-[500px] w-full">
                     <!-- slider 1 -->
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="./images/banner1.png" class="md:h-[420px] lg:h-[500px] w-full" />
                         <!-- slider title 1-->
-                        <div class="absolute mt-10 md:mt-28 text-white top-0 bottom-0 right-0 left-0">
+                        <div class="absolute mt-10 md:mt-20 text-white top-0 bottom-0 right-0 left-0">
                             <div class="hero  ">
                                 <div class=" text-center">
                                     <div class="max-w-3xl px-2 ">
@@ -121,7 +121,7 @@
                     <div id="slide2" class="carousel-item relative w-full">
                         <img src="./images/banner2.png" class="md:h-[420px] lg:h-[500px] w-full" />
                         <!-- slider title 2-->
-                        <div class="absolute mt-10 md:mt-28 text-white top-0 bottom-0 right-0 left-0">
+                        <div class="absolute mt-10 md:mt-20 text-white top-0 bottom-0 right-0 left-0">
                             <div class="hero  ">
                                 <div class=" text-center">
                                     <div class="max-w-3xl px-2 ">
@@ -146,7 +146,7 @@
                     <div id="slide3" class="carousel-item relative w-full">
                         <img src="./images/banner3.png" class="md:h-[420px] lg:h-[500px] w-full" />
                         <!-- slider title 3-->
-                        <div class="absolute mt-10 md:mt-28 text-white top-0 bottom-0 right-0 left-0">
+                        <div class="absolute mt-10 md:mt-20 text-white top-0 bottom-0 right-0 left-0">
                             <div class="hero  ">
                                 <div class=" text-center">
                                     <div class="max-w-3xl px-2 ">
@@ -171,7 +171,7 @@
                     <div id="slide4" class="carousel-item relative w-full">
                         <img src="./images/banner4.png" class="md:h-[420px] lg:h-[500px] w-full" />
                         <!-- slider title 4-->
-                        <div class="absolute mt-10 md:mt-28 text-white top-0 bottom-0 right-0 left-0">
+                        <div class="absolute mt-10 md:mt-20 text-white top-0 bottom-0 right-0 left-0">
                             <div class="hero  ">
                                 <div class=" text-center">
                                     <div class="max-w-3xl px-2 ">
@@ -193,6 +193,35 @@
                         </div>
                     </div>
                 </div>
+                <!-- fruit section -->
+                <div class="mt-8 md:-mt-12 lg:-mt-20 items-center absolute grid grid-cols-5 md:w-9/12 bg-white rounded-xl right-0
+                left-0 mx-auto text-center drop-shadow-lg  md:drop-shadow-md">
+                    <!-- fruit 1 -->
+                    <div class="py-5">
+                        <img src="./images/fruit1.png" alt="" class=" mx-auto w-16 lg:w-24" >
+                        <h4 class="text-[10px] md:text-xs lg:text-xl font-medium pt-4">Grapes</h4>
+                    </div>
+                    <!-- fruit 2 -->
+                    <div class="py-4">
+                        <img src="./images/fruit2.png" alt="" class="mx-auto w-16 lg:w-24" >
+                        <h4 class="text-[10px] md:text-xs lg:text-xl font-medium">Orange</h4>
+                    </div>
+                    <!-- fruit 3 -->
+                    <div class="py-4">
+                        <img src="./images/fruit3.png" alt="" class="mx-auto w-16 lg:w-24" >
+                        <h4 class="text-[10px] md:text-xs lg:text-xl font-medium pt-4">Mango</h4>
+                    </div>
+                    <!-- fruit 4 -->
+                    <div class="py-4">
+                        <img src="./images/fruit4.png" alt="" class="mx-auto w-16 lg:w-24" >
+                        <h4 class="text-[10px] md:text-xs lg:text-xl font-medium pt-4">Strawberry</h4>
+                    </div>
+                    <!-- fruit 5 -->
+                    <div class="py-4">
+                        <img src="./images/fruit5.png" alt="" class="mx-auto w-16 lg:w-24" >
+                        <h4 class="text-[10px] md:text-xs lg:text-xl font-medium pt-4">Pomegranate</h4>
+                    </div>
+                </div>
             </div>
         </section>
     </header>
@@ -202,9 +231,9 @@
         <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-8 my-6">
             <div>
                 <!-- Deal of the day title-->
-                <div class="flex text-[#121212] justify-between items-center gap-7">
-                    <div class="flex-1">
-                        <h2 class=" text-5xl font-extrabold">
+                <div class="flex flex-col lg:flex-row text-[#121212] justify-between items-center gap-7">
+                    <div class="flex-1 text-center lg:text-left">
+                        <h2 class="text-3xl lg:text-5xl font-extrabold">
                             Deal of the day
                         </h2>
                         <p class="text-base mt-5 font-medium desc-color">
@@ -217,7 +246,7 @@
                             <!-- the day -->
                             <div class="flex flex-col">
                               <div class="flex">
-                                <span class="countdown text-font-lato text-5xl font-extrabold">
+                                <span class="countdown text-font-lato text-2xl md:text-5xl font-extrabold">
                                     <span style="--value:15;"></span>
                                   </span>
                                   <img src="./icon/Frame .svg" alt="" class="ml-2">
@@ -227,7 +256,7 @@
                             <!-- hours -->
                             <div class="flex flex-col">
                                 <div class="flex">
-                                    <span class="countdown text-font-lato text-5xl font-extrabold">
+                                    <span class="countdown text-font-lato text-2xl md:text-5xl font-extrabold">
                                         <span style="--value:12;"></span>
                                       </span>
                                       <img src="./icon/Frame .svg" alt="" class="ml-2">
@@ -237,7 +266,7 @@
                             <!-- minutes -->
                             <div class="flex flex-col">
                                 <div class="flex">
-                                    <span class="countdown text-font-lato text-5xl font-extrabold">
+                                    <span class="countdown text-font-lato text-2xl md:text-5xl font-extrabold">
                                         <span style="--value:24;"></span>
                                       </span>
                                       <img src="./icon/Frame .svg" alt="" class="ml-2">
@@ -246,7 +275,7 @@
                             </div> 
                             <!-- sec -->
                             <div class="flex flex-col">
-                              <span class="countdown text-font-lato font-extrabold text-5xl">
+                              <span class="countdown text-font-lato font-extrabold text-4xl md:text-5xl">
                                 <span style="--value:18;"></span>
                               </span>
                               <span class="text-left pl-5">sec</span>
